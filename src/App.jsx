@@ -8,7 +8,14 @@ function App() {
 
   return (
     <>
-      <h1>Hi, I'm Ryan.</h1>
+      <nav>
+        <a href="#">demo</a>
+      </nav>
+      <div className='flex-container'>
+        <div className='title-container'>
+          <p className='title'>Hi, I'm Ryan.</p>
+        </div>
+      </div>
     </>
   )
 }
