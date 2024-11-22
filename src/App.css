@@ -21,7 +21,7 @@ nav {
 nav>* {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 550;
   transition: 0.3s;
 }
@@ -33,7 +33,7 @@ nav>*:hover {
 
 .home-flex-container {
   display: flex;
-  height: 64vh;
+  height: 70vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ nav>*:hover {
 }
 
 .title {
-  margin-bottom: 1.8rem;
+  margin-bottom: 0.3rem;
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 2px;
@@ -109,6 +109,16 @@ nav>*:hover {
   font-weight: 500;
   font-style: italic;
   font-size: 1.07rem;
+}
+
+.home-description {
+  text-align: center;
+  width: 40rem;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.07rem;
+  animation: fadeIn 5s;
+  transition: 3s;
 }
 
 .logos-container {
