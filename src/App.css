@@ -23,7 +23,7 @@ nav>* {
   color: white;
   font-size: 1.15rem;
   font-weight: 550;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 nav>*:hover {
@@ -130,9 +130,29 @@ nav>*:hover {
 }
 
 .logos-container>* {
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .logos-container>*:hover {
   transform: scale(1.05);
+}
+
+.work-grid {
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.projects-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
