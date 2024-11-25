@@ -151,8 +151,17 @@ nav>*:hover {
 }
 
 .skills-flex-container {
+  padding: 0 10vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.skills-flex-container>* {
+  padding: 0.1rem;
+}
+
+.icon {
+  width: 4rem;
 }
