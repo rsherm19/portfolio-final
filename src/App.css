@@ -12,6 +12,7 @@ nav {
   background-color: rgba(171, 56, 30, 0.279);
   box-shadow: rgba(171, 56, 30, 0.279) 1px 1px 10px 5px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 0 30rem;
@@ -141,6 +142,7 @@ nav>*:hover {
   height: 90vh;
   display: grid;
   grid-template-rows: 3fr 1fr;
+  animation: fadeIn 0.7s;
 }
 
 .projects-flex-container {
@@ -150,16 +152,48 @@ nav>*:hover {
   flex-wrap: wrap;
 }
 
+.project {
+  width: 20rem;
+  height: 13rem;
+  background-image: url('https://placehold.co/300x200');
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .skills-flex-container {
   padding: 0 10vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  transition: transform 3s;
 }
 
 .skills-flex-container>* {
   padding: 0.1rem;
+  animation: floatAround 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floatAround {
+  0% {
+    transform: 0;
+  }
+
+  33% {
+    transform: rotate(3deg);
+  }
+
+  66% {
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform: 0;
+  }
 }
 
 .icon {
