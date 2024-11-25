@@ -19,6 +19,13 @@ nav {
   padding-top: 0.3rem;
 }
 
+h1 {
+  padding: 0;
+  margin: 0;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 nav>* {
   text-decoration: none;
   color: white;
@@ -139,9 +146,9 @@ nav>*:hover {
 }
 
 .work-grid {
-  height: 90vh;
+  height: 80vh;
   display: grid;
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 2fr 1fr;
   animation: fadeIn 0.7s;
 }
 

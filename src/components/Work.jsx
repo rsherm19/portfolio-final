@@ -4,33 +4,34 @@ import StackIcon from "tech-stack-icons";
 const Work = () => {
     return (
         <>
+            <h1>My Work:</h1>
             <div className='work-grid'>
                 <div className='projects-flex-container'>
                     <div className='project' id='blogapp'>
                         <div className='project-links'>
-                            <a href="#">Site</a>
-                            <a href="#">Repo</a>
+                            <a href="https://dada-blog.netlify.app/" target='blank'>Site</a>
+                            <a href="https://github.com/RavshanSean/3d_port" target='blank'>Repo</a>
                         </div>
                         <p>BlogApp</p>
                     </div>
                     <div className='project' id='more-than-music'>
                         <div className='project-links'>
-                            <a href="#">Site</a>
-                            <a href="#">Repo</a>
+                            <a href="https://more-than-music-7a11baa48e88.herokuapp.com/" target='blank'>Site</a>
+                            <a href="https://github.com/rsherm19/more-than-music" target='blank'>Repo</a>
                         </div>
                         <p>More Than Music</p>
                     </div>
                     <div className='project' id='streemer'>
                         <div className='project-links'>
-                            <a href="#">Site</a>
-                            <a href="#">Repo</a>
+                            <a href="https://streemer-551873ec9fba.herokuapp.com/" target='blank'>Site</a>
+                            <a href="https://github.com/rsherm19/Streemer" target='blank'>Repo</a>
                         </div>
                         <p>Streemer</p>
                     </div>
                     <div className='project' id='spaceman-baseball'>
                         <div className='project-links'>
-                            <a href="https://rsherm19.github.io/spaceman-baseball/">Site</a>
-                            <a href="https://github.com/rsherm19/spaceman-baseball">Repo</a>
+                            <a href="https://rsherm19.github.io/spaceman-baseball/" target='blank'>Site</a>
+                            <a href="https://github.com/rsherm19/spaceman-baseball" target='blank'>Repo</a>
                         </div>
                         <p>Spaceman Baseball</p>
                     </div>
