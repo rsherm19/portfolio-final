@@ -6,31 +6,31 @@ const Work = () => {
         <>
             <div className='work-grid'>
                 <div className='projects-flex-container'>
-                    <div className='project'>
+                    <div className='project' id='blogapp'>
                         <div className='project-links'>
                             <a href="#">Site</a>
                             <a href="#">Repo</a>
                         </div>
                         <p>BlogApp</p>
                     </div>
-                    <div className='project'>
+                    <div className='project' id='more-than-music'>
                         <div className='project-links'>
                             <a href="#">Site</a>
                             <a href="#">Repo</a>
                         </div>
                         <p>More Than Music</p>
                     </div>
-                    <div className='project'>
+                    <div className='project' id='streemer'>
                         <div className='project-links'>
                             <a href="#">Site</a>
                             <a href="#">Repo</a>
                         </div>
                         <p>Streemer</p>
                     </div>
-                    <div className='project'>
+                    <div className='project' id='spaceman-baseball'>
                         <div className='project-links'>
-                            <a href="#">Site</a>
-                            <a href="#">Repo</a>
+                            <a href="https://rsherm19.github.io/spaceman-baseball/">Site</a>
+                            <a href="https://github.com/rsherm19/spaceman-baseball">Repo</a>
                         </div>
                         <p>Spaceman Baseball</p>
                     </div>
