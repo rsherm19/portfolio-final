@@ -246,19 +246,19 @@ nav>*:hover {
 }
 
 #blogapp {
-  background-image: url('src/assets/images/projects/blogapp.png');
+  background-image: url('./src/assets/images/projects/blogapp.png');
 }
 
 #more-than-music {
-  background-image: url('src/assets/images/projects/more-than-music.JPG');
+  background-image: url('./src/assets/images/projects/more-than-music.jpg');
 }
 
 #streemer {
-  background-image: url('src/assets/images/projects/streemer.jpg');
+  background-image: url('./src/assets/images/projects/streemer.jpg');
 }
 
 #spaceman-baseball {
-  background-image: url('src/assets/images/projects/spaceman-baseball.jpg');
+  background-image: url('./src/assets/images/projects/spaceman-baseball.jpg');
 }
 
 #download-button {
