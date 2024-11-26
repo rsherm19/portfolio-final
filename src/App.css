@@ -246,7 +246,7 @@ nav>*:hover {
 }
 
 #blogapp {
-  background-image: url('src/assets/images/projects/blogapp.png');
+  background-image: url('./assets/images/projects/blogapp.png');
 }
 
 #more-than-music {
