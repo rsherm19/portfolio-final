@@ -147,7 +147,7 @@ nav>*:hover {
 .work-grid {
   height: 80vh;
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
   animation: fadeIn 0.7s;
 }
 
@@ -187,12 +187,12 @@ nav>*:hover {
   color: white;
   border: 2px solid white;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.071);
+  background-color: rgba(0, 0, 0, 0.437);
   transition: 0.3s;
 }
 
 .project-links>a:hover {
-  background-color: rgba(0, 0, 0, 0.563);
+  background-color: rgba(0, 0, 0, 0.627);
 }
 
 .project>p {
