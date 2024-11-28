@@ -130,7 +130,7 @@ nav>*:hover {
 }
 
 .logos-container {
-  width: 8rem;
+  width: 5.5rem;
   display: flex;
   justify-content: space-between;
   animation: fadeIn 5s;
